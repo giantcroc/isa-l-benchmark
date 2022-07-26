@@ -1,0 +1,22 @@
+2022-07-01T13:52:59+08:00
+Running ./bazel-bin/test/extensions/filters/http/compressor/compressor_filter_speed_test
+Run on (8 X 4191.41 MHz CPU s)
+CPU Caches:
+  L1 Data 32 KiB (x4)
+  L1 Instruction 32 KiB (x4)
+  L2 Unified 256 KiB (x4)
+  L3 Unified 8192 KiB (x1)
+Load Average: 0.50, 0.52, 0.32
+***WARNING*** Library was built as DEBUG. Timings may be affected.
+-----------------------------------------------------------------------------
+Benchmark                                   Time             CPU   Iterations
+-----------------------------------------------------------------------------
+compressFullWithGzip/0/manual_time     115092 ms       153797 ms            1
+compressFullWithGzip/1/manual_time      50184 ms        51018 ms            1
+compressFullWithGzip/2/manual_time      38887 ms        39819 ms            1
+compressFullWithGzip/3/manual_time     121988 ms       122937 ms            1
+compressFullWithGzip/4/manual_time      75322 ms        76233 ms            1
+compressFullWithGzip/5/manual_time     137063 ms       137949 ms            1
+compressFullWithGzip/6/manual_time     121803 ms       122741 ms            1
+compressFullWithGzip/7/manual_time      75496 ms        76399 ms            1
+compressFullWithGzip/8/manual_time     137429 ms       138317 ms            1
